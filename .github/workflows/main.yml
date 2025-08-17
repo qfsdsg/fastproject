@@ -35,6 +35,7 @@ jobs:
         if [ -n "$(git status --porcelain)" ]; then
           git add ip.txt
           git commit -m "Automatic update"
+          git pull --rebase origin main
           git push
         else
           echo "No changes detected, skipping commit."
