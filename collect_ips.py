@@ -10,6 +10,8 @@ urls = ['https://api.uouin.com/cloudflare.html',
 
 # 正则表达式用于匹配IP地址
 ip_pattern = r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
+# 6.73mb/s
+speed_pattern = r'\d+\.\d+[Mm][Bb]/s'
 
 # 检查ip.txt文件是否存在,如果存在则删除它
 if os.path.exists('ip.txt'):
@@ -36,9 +38,11 @@ with open('ip.txt', 'w') as file:
         for element in elements:
             element_text = element.get_text()
             ip_matches = re.findall(ip_pattern, element_text)
-            
-            # 如果找到IP地址,则写入文件
-            for ip in ip_matches:
-                file.write(ip + '\n')
-
+            speed_matches = re.findall(speed_pattern, element_text)
+            if len(ip_matches) > 0 and len(speed_matches) > 0:
+                speed_matches = float(speed_matches[0].replace("MB/s", "").replace("mb/s", ""))
+                if speed_matches > 3.0:
+                    file.write(ip_matches[0] + '\n')
+                    # file.write(f"ip地址: {ip_matches[0]}, 速度: {speed_matches}" + '\n')
+                    
 print('IP地址已保存到ip.txt文件中。')
