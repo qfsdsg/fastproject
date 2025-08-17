@@ -33,13 +33,13 @@ https://api.uouin.com/cloudflare.html: 104.17.167.134 -- 14.04mb/s
 https://api.uouin.com/cloudflare.html: 104.18.223.253 -- 13.24mb/s
 https://api.uouin.com/cloudflare.html: 104.16.105.166 -- 10.34mb/s
 https://api.uouin.com/cloudflare.html: 104.17.142.212 -- 8.67mb/s
+https://ip.164746.xyz: 104.21.238.4 -- 32.27mb/s
+https://ip.164746.xyz: 104.19.246.33 -- 29.94mb/s
 https://ip.164746.xyz: 104.16.89.100 -- 6.24mb/s
-https://ip.164746.xyz: 104.16.249.175 -- 6.07mb/s
 https://ip.164746.xyz: 104.19.102.208 -- 5.61mb/s
 https://ip.164746.xyz: 104.18.234.94 -- 5.6mb/s
 https://ip.164746.xyz: 104.19.246.88 -- 5.55mb/s
 https://ip.164746.xyz: 104.19.79.84 -- 5.2mb/s
 https://ip.164746.xyz: 104.17.248.145 -- 5.14mb/s
-https://ip.164746.xyz: 104.16.241.186 -- 5.12mb/s
 https://ip.164746.xyz: 104.18.227.43 -- 4.62mb/s
 https://ip.164746.xyz: 104.16.185.175 -- 4.5mb/s
