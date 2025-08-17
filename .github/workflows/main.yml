@@ -33,7 +33,7 @@ jobs:
         git config --global user.email "tianshideyou@proton.me"
         git config --global user.name "tianshipapa"
         if [ -n "$(git status --porcelain)" ]; then
-          git add ip.txt
+          git add ip.txt speed.txt 
           git commit -m "Automatic update"
           git pull --rebase origin main
           git push
