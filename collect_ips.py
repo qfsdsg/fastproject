@@ -1,11 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime
 import re
 import os
 
 # 正则表达式用于匹配IP地址
 ip_pattern = r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
-# 6.73mb/s
+
 speed_pattern = r'\d+\.\d+[Mm][Bb]/s'
 
 # 检查ip.txt文件是否存在,如果存在则删除它
@@ -19,7 +20,8 @@ if os.path.exists('speed.txt'):
 def extract_ips():
     result = {}
     # 目标URL列表
-    urls = ['https://api.uouin.com/cloudflare.html','https://ip.164746.xyz']
+    urls = ['https://api.uouin.com/cloudflare.html', 'https://ip.164746.xyz']
+    
     for url in urls:
         try:
             # 发送HTTP请求获取网页内容
@@ -42,25 +44,28 @@ def extract_ips():
             element_text = element.get_text()
             ip_matches = re.findall(ip_pattern, element_text)
             speed_matches = re.findall(speed_pattern, element_text)
+            
             if len(ip_matches) > 0 and len(speed_matches) > 0:
                 speed_matches = float(speed_matches[0].replace("MB/s", "").replace("mb/s", ""))
                 if speed_matches > 3.0:
                     result[ip_matches[0]] = {
                         "url": url,
                         "speed": speed_matches
-                        }
+                    }
+    
     return result
 
 data = extract_ips()
+
 with open('ip.txt', 'w') as file:
     for key, value in data.items():
         file.write(f"{key}\n")
 
 with open('speed.txt', 'w') as file:
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    file.write(f"当前时间: {now}\n")
+    
     for key, value in data.items():
         file.write(f"{value['url']}: {key} -- {value['speed']}mb/s\n")
-
-
-
 
 print('IP地址已保存到ip.txt文件中。')
