@@ -1,4 +1,4 @@
-当前时间: 2025-09-05 06:48:15
+当前时间: 2025-09-05 13:16:44
 https://api.uouin.com/cloudflare.html: 172.64.82.114 -- 6.92mb/s
 https://api.uouin.com/cloudflare.html: 198.41.194.162 -- 5.43mb/s
 https://api.uouin.com/cloudflare.html: 198.41.208.15 -- 4.71mb/s
@@ -34,12 +34,13 @@ https://api.uouin.com/cloudflare.html: 104.17.167.134 -- 14.04mb/s
 https://api.uouin.com/cloudflare.html: 104.18.223.253 -- 13.24mb/s
 https://api.uouin.com/cloudflare.html: 104.16.105.166 -- 10.34mb/s
 https://api.uouin.com/cloudflare.html: 104.17.142.212 -- 8.67mb/s
-https://ip.164746.xyz: 162.159.43.78 -- 32.86mb/s
-https://ip.164746.xyz: 104.16.125.116 -- 32.75mb/s
-https://ip.164746.xyz: 104.18.24.169 -- 22.07mb/s
-https://ip.164746.xyz: 104.21.235.28 -- 20.29mb/s
-https://ip.164746.xyz: 172.64.40.211 -- 19.8mb/s
-https://ip.164746.xyz: 104.19.254.143 -- 17.91mb/s
-https://ip.164746.xyz: 104.18.28.119 -- 16.12mb/s
-https://ip.164746.xyz: 104.18.36.60 -- 15.85mb/s
-https://ip.164746.xyz: 104.21.231.103 -- 15.04mb/s
+https://ip.164746.xyz: 104.21.237.190 -- 19.98mb/s
+https://ip.164746.xyz: 162.159.251.66 -- 18.31mb/s
+https://ip.164746.xyz: 104.21.239.112 -- 15.19mb/s
+https://ip.164746.xyz: 104.19.250.192 -- 15.15mb/s
+https://ip.164746.xyz: 104.19.241.88 -- 14.37mb/s
+https://ip.164746.xyz: 104.19.247.220 -- 13.85mb/s
+https://ip.164746.xyz: 104.21.238.178 -- 13.71mb/s
+https://ip.164746.xyz: 104.18.24.69 -- 12.25mb/s
+https://ip.164746.xyz: 198.41.211.158 -- 11.38mb/s
+https://ip.164746.xyz: 104.18.117.176 -- 10.66mb/s
