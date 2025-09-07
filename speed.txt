@@ -1,4 +1,4 @@
-当前时间: 2025-09-06 18:39:09
+当前时间: 2025-09-07 03:10:28
 https://api.uouin.com/cloudflare.html: 172.64.82.114 -- 6.92mb/s
 https://api.uouin.com/cloudflare.html: 198.41.194.162 -- 5.43mb/s
 https://api.uouin.com/cloudflare.html: 198.41.208.15 -- 4.71mb/s
@@ -34,13 +34,3 @@ https://api.uouin.com/cloudflare.html: 104.17.167.134 -- 14.04mb/s
 https://api.uouin.com/cloudflare.html: 104.18.223.253 -- 13.24mb/s
 https://api.uouin.com/cloudflare.html: 104.16.105.166 -- 10.34mb/s
 https://api.uouin.com/cloudflare.html: 104.17.142.212 -- 8.67mb/s
-https://ip.164746.xyz: 104.19.90.187 -- 34.05mb/s
-https://ip.164746.xyz: 104.19.100.41 -- 30.49mb/s
-https://ip.164746.xyz: 104.19.116.12 -- 23.16mb/s
-https://ip.164746.xyz: 104.19.34.161 -- 18.66mb/s
-https://ip.164746.xyz: 104.19.68.75 -- 8.66mb/s
-https://ip.164746.xyz: 104.19.2.173 -- 7.09mb/s
-https://ip.164746.xyz: 104.19.73.167 -- 6.32mb/s
-https://ip.164746.xyz: 104.19.97.22 -- 6.04mb/s
-https://ip.164746.xyz: 104.19.16.143 -- 5.95mb/s
-https://ip.164746.xyz: 172.67.80.212 -- 4.29mb/s
